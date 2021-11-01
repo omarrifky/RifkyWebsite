@@ -1,0 +1,71 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Amatic+SC" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Patrick+Hand" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"> -->
+
+
+
+</head>
+
+
+<body>
+
+    <div class="contactme">
+        <div class="card">
+            <header>
+
+                <h1>My INFO CARD</h1>
+            </header>
+            <article>
+                <img class="myimage" src="assets/imgs/MyImage.jpg">
+                <div class="text-container">
+                    <h2>Omar Khaled Rifky</h2>
+                    <div class="area">
+                        <div>
+                            <button (click)="GoToGitHubAccount() " class="b1">
+                            <i class="fab fa-github"></i>
+                                  Github Profile
+                            </button>
+                        </div>
+                        <div>
+                            <button (click)="GoToLinkedinAccount() " class="b1 ">
+                            <i class="fab fa-linkedin-in"></i>
+                               Linkdin Profile
+                            </button>
+                        </div>
+                        <div>
+                            <button (click)="GoToFacebookAccount() " class="b1 ">
+                            <i class="fab fa-facebook"></i>
+                           Facebook Profile
+                            </button>
+                        </div>
+                        <div>
+                            <button (click)="MyCV() " class="b1 ">
+                            <i class="fa fa-file"></i>
+                            My CV
+                            </button>
+                        </div>
+                        <div>
+                            <button (click)="EmailMe() " class="b1 ">
+                            <i class="fa fa-envelope"></i>
+                            omarkhaledrifky@hotmail.com
+                            </button>
+                        </div>
+                        <div>
+                            <button (click)="CallMe() " class="b1 ">
+                            <i class="fa fa-phone"></i>
+                            +20-1004848737
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="buttons">
+        <button (click)="GoToHomePage()" class="homebtn">
+      <h3>Back Home!</h3 >
+    </button>
+    </div>
+</body>

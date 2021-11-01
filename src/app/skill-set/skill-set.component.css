@@ -1,0 +1,350 @@
+body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 195, 0);
+    margin: 0;
+    padding: 0;
+    border: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    overflow: scroll;
+}
+
+.title {
+    box-sizing: border-box;
+    /* padding-top: 5%;
+    padding-left: 30%; */
+    font-family: Amatic SC;
+    font-size: 300%;
+    color: rgb(0, 0, 255);
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 10000;
+    /* line-height: 26.4px; */
+    width: 100%;
+    text-align: center;
+    padding: 2% 15px;
+}
+
+h1 {
+    font-family: Amatic SC;
+    font-size: 300%;
+    color: rgb(0, 0, 255);
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 10000;
+    line-height: 26.4px;
+}
+
+.fullskills {
+    /* padding-top: 5%;
+    padding-left: 3%; */
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 870px;
+    margin: auto;
+}
+
+.fullskills img {
+    padding: 0;
+    margin: 30px;
+    width: 60px;
+    -webkit-animation: mover 2s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+.firstrow {
+    height: 20%;
+    padding-left: 10%;
+}
+
+.secondrow {
+    height: 20%;
+    padding-top: 5%;
+}
+
+.thirdrow {
+    height: 20%;
+    padding-top: 5%;
+    padding-left: 8%;
+}
+
+
+/* .html {
+    height: 5%;
+    width: 5%;
+    -webkit-animation: mover 2s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+.css {
+    height: 5%;
+    width: 5%;
+    padding-left: 5%;
+    -webkit-animation: mover 2s infinite alternate;
+    animation: mover 2s infinite alternate;
+}
+
+.javascript {
+    height: 5%;
+    width: 5%;
+    padding-left: 6%;
+    -webkit-animation: mover 2s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+.mongodb {
+    height: 5%;
+    width: 5%;
+    padding-left: 7%;
+    -webkit-animation: mover 2s infinite alternate;
+    animation: mover 2s infinite alternate;
+}
+
+.express {
+    height: 5%;
+    width: 8%;
+    padding-left: 8%;
+    -webkit-animation: mover 2s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+.angular {
+    height: 5%;
+    width: 5%;
+    padding-left: 9%;
+    -webkit-animation: mover 2s infinite alternate;
+    animation: mover 2s infinite alternate;
+}
+
+.ionic {
+    height: 5%;
+    width: 5%;
+    padding-left: 9%;
+    -webkit-animation: mover 2s infinite alternate;
+    animation: mover 2s infinite alternate;
+}
+
+.node {
+    height: 5%;
+    width: 5%;
+    padding-left: 8%;
+    -webkit-animation: mover 2s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+.java {
+    height: 5%;
+    width: 5%;
+    padding-left: 9%;
+    -webkit-animation: mover 2s infinite alternate;
+    animation: mover 2s infinite alternate;
+}
+
+.c {
+    height: 6%;
+    width: 6%;
+    padding-left: 8%;
+    -webkit-animation: mover 2s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+.cpp {
+    height: 5%;
+    width: 5%;
+    padding-left: 8%;
+    -webkit-animation: mover 2s infinite alternate;
+    animation: mover 2s infinite alternate;
+}
+
+.csharp {
+    height: 5%;
+    width: 5%;
+    padding-left: 5%;
+    -webkit-animation: mover 2s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+.python {
+    height: 5%;
+    width: 5%;
+    padding-left: 9%;
+    -webkit-animation: mover 2s infinite alternate;
+    animation: mover 2s infinite alternate;
+}
+
+.arduino {
+    height: 5%;
+    width: 5%;
+    padding-left: 5%;
+    -webkit-animation: mover 2s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+.pytorch {
+    height: 5%;
+    width: 5%;
+    padding-left: 15%;
+    -webkit-animation: mover 2s infinite alternate;
+    animation: mover 2s infinite alternate;
+}
+
+.github {
+    height: 5%;
+    width: 5%;
+    padding-left: 5%;
+    -webkit-animation: mover 2s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+.git {
+    height: 5%;
+    width: 5%;
+    padding-left: 9%;
+    -webkit-animation: mover 2s infinite alternate;
+    animation: mover 2s infinite alternate;
+}
+
+.sql {
+    height: 5%;
+    width: 5%;
+    padding-left: 5%;
+    -webkit-animation: mover 2s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+.unity {
+    height: 5%;
+    width: 5%;
+    padding-left: 9%;
+    -webkit-animation: mover 2s infinite alternate;
+    animation: mover 2s infinite alternate;
+}
+
+.img1 {
+    -webkit-animation: mover 2s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+.img2 {
+    -webkit-animation: mover 2s infinite alternate;
+    animation: mover 2s infinite alternate;
+} */
+
+@-webkit-keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@-webkit-keyframes mover2 {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes mover2 {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+.b1 {
+    position: relative;
+    /* left: 77%; */
+    border: 4px solid blue;
+    background-color: rgb(255, 195, 0);
+    border-radius: 15% 15%;
+    color: white;
+    /* padding: 0.3% 0.6%; */
+    font-size: 100%;
+    cursor: pointer;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+}
+
+.b2 {
+    position: relative;
+    /* left: 7%; */
+    border: 4px solid blue;
+    background-color: rgb(255, 195, 0);
+    border-radius: 15% 15%;
+    color: white;
+    /* padding: 0.3% 0.6%; */
+    font-size: 100%;
+    cursor: pointer;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+}
+
+.b1:hover {
+    background-color: rgb(0, 0, 255);
+    font-size: 110%;
+}
+
+.b2:hover {
+    background-color: rgb(0, 0, 255);
+    font-size: 110%;
+}
+
+.buttons {
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    min-height: 20%;
+    background-color: rgb(255, 195, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+h3 {
+    font-family: Amatic SC;
+    color: white;
+    font-size: 100%;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 10000;
+    line-height: 26.4px;
+}
+
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .fullskills {
+        padding-top: 10%;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .fullskills {
+        padding-top: 10%;
+    }
+}

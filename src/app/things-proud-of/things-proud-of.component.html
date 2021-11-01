@@ -1,0 +1,122 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Amatic+SC" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Patrick+Hand" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <div class="card">
+        <div class="products">
+            <p class="h1">THINGS I'M PROUD OF!</p>
+            <div class="product active" *ngIf="index===0" product-id="1" product-color="#D18B49">
+                <div class="thumbnail"><img class="bungee" src="assets/imgs/bungee.PNG" /></div>
+                <h1 class="title">Bungee Jumping!</h1>
+                <p class="description"> I was halfway around the world in Croatia, where I decided that I needed to experience something new and my attempt at something new ended up jumping off a 51-meter high bridge with nothing but a rope tied to my leg. My heart never pounded
+                    harder than when I heard "1,2,3 BUGEE!", the rush of free-falling, until the rope is yanked, is an experience I still can't put to words, I think might have fainted for a few seconds back there! But in the end, i came out feeling triumphant
+                    knowing that today I challenged my fear and came out victorious. I just couldn't help but feel proud. I would like to quote Will Smith when he said "The best things in life are on the other side of terror, on the other side of your
+                    maximum fear, are all of the best things in life.”
+                </p>
+                <div class="footer1">
+
+                    <!-- <a class="btn1" id="next" (click)="Next()" ripple="" ripple-color="#666666">Next</a> -->
+                    <button (click)="Next() " class="btn">
+                        <i class="fas fa-arrow-right"></i>
+                            
+                        </button>
+
+                </div>
+            </div>
+            <div class="product" *ngIf="index===1" product-id="2" product-color="#542F13">
+                <div class="thumbnail"><img class="diving" src="assets/imgs/diving.JPG" /></div>
+                <h1 class="title">Diving!</h1>
+                <p class="description"> Been licensed as a PADI advanced level diver since I was 16. When you’re deep underwater all the stress and problems just fade away and you’re only left with beautiful blissful relaxation and the view of fish at ease in their home and
+                    as my instructor once told me: "The best way to observe a fish, is to become a fish!"</p>
+                <div class="footer">
+                    <!-- <a class="btn" id="prev" (click)="Previous()" ripple="" ripple-color="#666666">Previous</a> -->
+                    <!-- <a class="btn" id="next" (click)="Next()" ripple="" ripple-color="#666666">Next</a> -->
+                    <button (click)="Previous() " class="btn">
+                        <i class="fas fa-arrow-left"></i>
+                            
+                        </button>
+                    <button (click)="Next() " class="btn">
+                        <i class="fas fa-arrow-right"></i>
+                            
+                        </button>
+
+                </div>
+            </div>
+            <div class="product" *ngIf="index===2" product-id="3" product-color="#A5AAAE">
+                <div class="thumbnail"><img class="bachelor" src="assets/imgs/bachelor.JPG" /></div>
+                <h1 class="title">Herbie the amazing car!</h1>
+                <p class="description">My bachelor project is not a project you pass by in your daily life. Self-driving cars have been a passion of mine since I joined the GUC. When I was accepted in the project under the supervision of Prof. Slim Abdennadher, I couldn't help
+                    but feel the weight and the pressure of such a project on my shoulders, it was a very tough challenge. Until today I can't forget the feeling of the first time Herbie drove fully autonomously and our fear that we would crash into something.
+                    I'm very grateful for such an experience and will forever be proud of my contribution in bringing Herbie to life and watching her driving herself around the GUC. After I was done with my project, I was asked by Prof. Slim to be within
+                    the team that will write the research paper to be submitted at the Joint International Conference on Design and Construction of Smart City Components.
+                </p>
+                <div class="footer">
+                    <!-- <a class="btn" id="prev" (click)="Previous()" ripple="" ripple-color="#666666">Previous</a> -->
+                    <!-- <a class="btn" id="next" (click)="Next()" ripple="" ripple-color="#666666">Next</a> -->
+                    <button (click)="Previous() " class="btn">
+                        <i class="fas fa-arrow-left"></i>
+                            
+                        </button>
+                    <button (click)="Next() " class="btn">
+                        <i class="fas fa-arrow-right"></i>
+                            
+                        </button>
+
+                </div>
+            </div>
+            <div class="product" *ngIf="index===3" product-id="4" product-color="#ED8D1F">
+                <div class="thumbnail"><img class="travelling" src="assets/imgs/travelling.JPG" /></div>
+                <h1 class="title">Exploring the world!</h1>
+                <p class="description">As once said, "Travel is the only thing you buy that makes you richer." I couldn't find a more accurate quote! The experience I gained from traveling to 51 cities throughout my life outways any academic experience I've ever had. The exposure
+                    to new cultures and new people changes you forever, it shows you what a small place you occupy in this world, leaving you humbled and amazed by how diverse and alike humans can be at the same time. </p>
+                <div class="footer">
+                    <!-- <a class="btn" id="prev" (click)="Previous()" ripple="" ripple-color="#666666">Previous</a> -->
+                    <!-- <a class="btn" id="next" (click)="Next()" ripple="" ripple-color="#666666">Next</a> -->
+                    <button (click)="Previous() " class="btn">
+                        <i class="fas fa-arrow-left"></i>
+                            
+                        </button>
+                    <button (click)="Next() " class="btn">
+                        <i class="fas fa-arrow-right"></i>
+                            
+                        </button>
+
+                </div>
+            </div>
+            <div class="product" *ngIf="index===4" product-id="5" product-color="#C4C8CB">
+                <div class="thumbnail"><img class="padel" src="assets/imgs/padel.jpg" /></div>
+                <h1 class="title">Padel Tennis!</h1>
+                <p class="description">Padel tennis has been a passion of mine for 3+ years now and I enjoy it so much that I am considering taking the professional approach, I've already strongly competed in multiple tournaments in both B and C level. Padel tennis taught me
+                    the importance of teamwork and how to maintain composure in stressful moments.</p>
+                <div class="footer2">
+                    <!-- <a class="btn2" id="prev" (click)="Previous()" ripple="" ripple-color="#666666">Previous</a> -->
+                    <button (click)="Previous() " class="btn">
+                        <i class="fas fa-arrow-left"></i>
+                            
+                        </button>
+
+
+                </div>
+            </div>
+
+        </div>
+        <!-- <div class="footer">
+            <a class="btn" id="prev" (click)="Previous()" ripple="" ripple-color="#666666">Previous</a>
+            <a class="btn"  id="next" (click)="Next()" ripple="" ripple-color="#666666">Next</a>
+            
+
+        </div> -->
+    </div>
+    <div class="buttons">
+        <button (click)="ContactMe()" class="contactmebtn">
+      <h3>Contact Me!</h3 >
+    </button>
+
+    </div>
+</body>
