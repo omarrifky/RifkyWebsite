@@ -324,10 +324,19 @@ h2 {
 
 @media (max-width: 680px) {
     .timeline__event__icon:before {
-        height: 410%;
+        height: 510%;
     }
     .timeline__event:nth-child(2n + 1) .timeline__event__icon:before {
-        height: 410%;
+        height: 510%;
+    }
+}
+
+@media(max-width:400px) {
+    .timeline__event__icon:before {
+        height: 510%;
+    }
+    .timeline__event:nth-child(2n + 1) .timeline__event__icon:before {
+        height: 510%;
     }
 }
 
