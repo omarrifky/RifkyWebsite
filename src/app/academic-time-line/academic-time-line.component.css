@@ -324,10 +324,10 @@ h2 {
 
 @media (max-width: 680px) {
     .timeline__event__icon:before {
-        height: 320%;
+        height: 390%;
     }
     .timeline__event:nth-child(2n + 1) .timeline__event__icon:before {
-        height: 320%;
+        height: 390%;
     }
 }
 
