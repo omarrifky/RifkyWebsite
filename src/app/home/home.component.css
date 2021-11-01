@@ -154,13 +154,14 @@ h3 {
     white-space: nowrap;
     overflow: hidden;
     border-right: transparent;
-    font-family: monospace;
+    font-family: Amatic SC;
 }
 
 .typing-demo2 p {
     font-size: 50px;
     margin: 0;
     line-height: 1;
+    font-family: Amatic SC;
 }
 
 * {
@@ -216,7 +217,7 @@ h3 {
     animation: typing 2.5s steps(27), blink-caret 2.7s;
     white-space: nowrap;
     overflow: hidden;
-    font-family: monospace;
+    font-family: Amatic SC;
     font-size: 80%;
 }
 
